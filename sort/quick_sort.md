@@ -33,13 +33,13 @@ function quickSort(arr,start,end){ //정렬할 array, start index, end index
             left 가 end보다 크거나 (기준값보다 큰값이 없거나) 
             기준값보다 큰 left의 값을 만나기 전까지 실행하여 기준보다 큰 값을 찾음
         */
-        while(left <= end && arr[left] < arr[key])
+        while(left <= end && arr[left] <= arr[key])
             left++;
         /*
             right 가 start보다 작거나같아지거나(기준값보다 작은값이 없거나) 
             기준값보다 작은 right의 값을 만나기 전까지 실행하여 기준보다 작은값을 찾음
         */  
-        while(right > start && arr[right] > arr[key])
+        while(right > start && arr[right] >= arr[key])
             right--;
         
         /*
