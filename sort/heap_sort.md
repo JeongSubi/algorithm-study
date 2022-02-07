@@ -13,7 +13,7 @@
 
 이진 트리란 모든 노드의 자식 노드가 2개 이하인 트리구조를 말한다.
 
-![](https://user-images.githubusercontent.com/86769182/152709457-aa6a8d32-ed68-4ee3-a3b1-0ef47a4454ca.png)
+<img width="400" alt="스크린샷 2022-02-07 오전 9 52 46" src="https://user-images.githubusercontent.com/86769182/152709651-490a3070-5f43-43f8-8313-3fddd8811648.png">
 
 위와같이 모든 노드는 자식을 2개를 초과하여 가질 수 없다.
 
@@ -37,13 +37,13 @@
 
 힙 생성 알고리즘은 어떠한 특정 노드의 자식 중 더 큰 자식이 자신보다 클 시 그 자식노드와 자신을 바꾸는 방법의 알고리즘이다.
 
-![](https://user-images.githubusercontent.com/86769182/152709529-66b43424-b78d-41a7-acc1-297d6f48c1e6.png)
+<img width="400" alt="스크린샷 2022-02-07 오전 9 53 01" src="https://user-images.githubusercontent.com/86769182/152709697-93307337-616d-4515-ad7b-890f35259e7b.png">
 
 위 그림을 보면 부모노드 2가 자식노드 3보다 작으므로 힙 구조가 아닌 상태이므로 힙 생성(heapify)을 위해 3 과 2를 변경해 준다.
 
 <br/>
 
-![](https://user-images.githubusercontent.com/86769182/152709550-2f9f659f-6fcc-40b3-b385-c8ce9f583e95.png)
+<img width="400" alt="스크린샷 2022-02-07 오전 9 53 10" src="https://user-images.githubusercontent.com/86769182/152709705-e2160947-50dc-4af3-87c2-67e12119347a.png">
 
 이제 모든 부모노드가 자식노드보다 크므로 힙 구조를 가지고 있다
 
