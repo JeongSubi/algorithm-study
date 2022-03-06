@@ -1,13 +1,9 @@
 # 계수 정렬(Counting Sort)
 
-<br/>
-
 ### 계수 정렬(Counting Sort) 알고리즘 이란?
 계수 정렬(Counting Sort) 알고리즘 이란 '범위' 가 정해져 있다는 가정하에 가장 빠른 알고리즘이다.
 
 예를들어 숫자의 범위가 1~8 이라는 범위가 정해져 있으면 각각의 수를 counting 하여서 빠르게 정렬을 수행할 수 있다.
-
-<br/>
 
 ### example
 ```js
@@ -34,8 +30,6 @@ function countSort(arr,range){
     return answer;
 }
 ```
-
-<br/>
 
 ### 계수 정렬(Counting Sort)의 시간복잡도
 계수 정렬의 시간복잡도는 O(N)으로 앞의 알고리즘보다 훨씬 빠르다.
