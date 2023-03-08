@@ -86,8 +86,8 @@ O(n2) 의 대표적인 알고리즘 으로는 버블 정렬(Bubble Sort) 가 있
 시간복잡도 O(2^n)은 exponential complexity 라고도 하며, 가장 느린 시간복잡도를 가진다.
 O(2^n)으로 구현한 알고리즘은 매우 느리므로 O(2^n) 으로 구현된 알고리즘 이라면 다시 구현할 필요가 있다.
 
+<img width="300" alt="스크린샷 2023-03-08 오후 2 21 52" src="https://user-images.githubusercontent.com/86769182/223626438-8527ebea-abe5-414b-bfd1-0d8a7e741080.png">
 
-<img width="300" alt="스크린샷 2023-03-08 오후 12 53 46" src="https://user-images.githubusercontent.com/86769182/223615668-f40e69f1-c1ba-4629-b6ed-fed7b4f445e1.png">
 
 > O(2^n) 의 예시 
 
