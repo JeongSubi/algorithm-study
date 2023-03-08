@@ -65,6 +65,19 @@ function funcTwo(arr){
 > O(log n)의 예시
 
 O(log n)의 대표적인 알고리즘 으로는 병합 정렬(Merge Sort) 가 있다.
+```
+// BST(Binary Search Tree)
+: 원하는 값을 탐색할 때, 노드를 이동할 때마다 경우의 수가 절반으로 줄어든다.
+
+이해하기 쉬운 게임으로 비유해 보자면 up & down을 예로 들 수 있다.
+1~100 중 하나의 숫자를 플레이어1이 고른다. (30을 골랐다고 가정한다.)
+50(가운데) 숫자를 제시하면 50보다 작으므로 down을 외친다.
+1~50중의 하나의 숫자이므로 또다시 경우의 수를 절반으로 줄이기 위해 25를 제시한다.
+25보다 크므로 up을 외친다.
+경우의 수를 계속 절반으로 줄여나가며 정답을 찾는다.
+
+매번 숫자를 제시할 때마다 경우의 수가 절반이 줄어들기 때문에 최악의 경우에도 7번이면 원하는 숫자를 찾아낼 수 있게 된다.
+```
 
 <br/>
 
@@ -79,6 +92,25 @@ O(log n)의 대표적인 알고리즘 으로는 병합 정렬(Merge Sort) 가 �
 > O(n^2)의 예시
 
 O(n2) 의 대표적인 알고리즘 으로는 버블 정렬(Bubble Sort) 가 있다.
+
+```
+function O_quadratic_algorithm(n) {
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      // do something for 1 second
+    }
+  }
+}
+function another_O_quadratic_algorithm(n) {
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      for (let k = 0; k < n; k++) {
+        // do something for 1 second
+      }
+    }
+  }
+}
+```
 
 <br/>
 
