@@ -60,7 +60,7 @@ function funcTwo(arr){
 ### O(log n)
 시간복잡도 O(log n)은 logarithmic complexity 라고도 하며, 입력값이 증가할수록 시간 증가율이 하락한다.
 
-<img width="300" alt="스크린샷 2023-03-08 오후 12 54 06" src="https://user-images.githubusercontent.com/86769182/223615884-a3eb963c-3fe5-4bc7-8ad5-43b66acd53a3.png">
+<img width="300" alt="스크린샷 2023-03-08 오후 12 57 54" src="https://user-images.githubusercontent.com/86769182/223616066-e133a8ff-2ccb-4f08-a7dd-07e2d5cd48b2.png">
 
 > O(log n)의 예시
 
